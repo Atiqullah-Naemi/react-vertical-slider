@@ -15,10 +15,8 @@ import React from 'react'
 
 import VerticalRangeSlider from 'vertical-slider'
 
-class Example extends Component {
-  render() {
-    return <VerticalRangeSlider {...props} />
-  }
+const Example = () => {
+  return <VerticalRangeSlider {...props} />
 }
 ```
 
