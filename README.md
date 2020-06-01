@@ -13,12 +13,14 @@ npm install --save vertical-slider
 ```jsx
 import React from 'react'
 
-import VerticalRangeSlider from 'vertical-slider'
+import { VerticalRangeSlider } from 'vertical-slider'
 
 const Example = () => {
   return <VerticalRangeSlider {...props} />
 }
 ```
+
+check [demo](https://codesandbox.io/s/eager-dewdney-mryo4?file=/src/App.js)
 
 ## License
 
