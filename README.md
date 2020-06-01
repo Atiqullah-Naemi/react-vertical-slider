@@ -1,8 +1,6 @@
 # vertical-slider
 
-> Made with create-react-library
-
-[![NPM](https://img.shields.io/npm/v/vertical-slider.svg)](https://www.npmjs.com/package/vertical-slider) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+> React vertical-slider is a range slider using Styled-Components for react applications
 
 ## Install
 
@@ -13,14 +11,13 @@ npm install --save vertical-slider
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'vertical-slider'
-import 'vertical-slider/dist/index.css'
+import VerticalRangeSlider from 'vertical-slider'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <VerticalRangeSlider {...props} />
   }
 }
 ```
